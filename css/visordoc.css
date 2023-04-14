@@ -1,0 +1,46 @@
+.contenido h2, .contenido h3, .contenido h4, .contenido h5 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.contenido h1, .contenido h2 {
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    border-bottom: solid 1px lightgray;
+}
+
+
+.contenido, .divindice {
+    max-height: 100vh!important;
+    overflow: auto;
+}
+
+.botonindice:focus {
+    box-shadow: none!important;
+}
+
+#esquema a {
+    text-decoration: none;
+}
+
+ol.nivel1 > li {
+   margin-top: 5px;
+}
+
+.sigant {
+    padding-top: 15px;
+    border-top: solid 2px lightgray;
+    margin-top:100px;
+    margin-bottom: 40px;
+}
+
+
+
+@media(max-width: 768px) {
+    .contenido, .divindice {
+        max-height: none!important;
+        overflow:auto!important;
+    }
+
+
+}

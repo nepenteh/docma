@@ -1,0 +1,10 @@
+# Ganímedes
+
+Ganimedes (del griego Γανυμήδης) es el satélite natural más grande de Júpiter y del sistema solar,4​ además de ser el único que tiene campo magnético. En orden de distancias al planeta, es el séptimo más cercano y el tercero de los galileanos, el primer grupo de objetos descubiertos que orbitan alrededor de un planeta. Completa su órbita en aproximadamente siete días y mantiene una resonancia orbital con Ío y Europa de 1:2:4. Su diámetro es de 5.268 km, un 8 % mayor que el de Mercurio, aunque solo representa el 45 % de su masa.​ Es un 2 % mayor que Titán, el segundo satélite natural más grande, y el doble de masivo que la Luna.10​ En términos absolutos, es el noveno objeto más grande del sistema solar y el mayor que no posee una atmósfera significativa.
+
+<figure class="figure">
+  <img src="./Contents/imagenes/ganimedes.png" class="figure-img img-fluid rounded shadow" alt="...">
+  <figcaption class="figure-caption text-center">Ganímedes.</figcaption>
+</figure>
+
+Ganimedes se compone de silicatos y hielo de agua en cantidades aproximadamente iguales.11​ Es un objeto diferenciado con un núcleo fundido rico en hierro y un océano interno que puede poseer más agua que todos los océanos de la Tierra juntos.12​13​14​ Su superficie está constituida por dos tipos diferentes de terrenos: oscuros y claros. Las regiones oscuras, saturadas de cráteres de impacto y formadas hace cuatro mil millones de años, cubren alrededor de un tercio del satélite. El resto de la superficie está ocupado por regiones claras, áreas cortadas por amplios surcos y crestas, y solo un poco menos antiguas. Las causas geológicas de la perturbación que los originó no se conocen del todo, pero los terrenos claros son quizá el resultado de la actividad tectónica provocada por el calentamiento de marea.1
