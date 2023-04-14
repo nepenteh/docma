@@ -34,16 +34,27 @@ A continuación indique un nombre para el archivo separándolo con un guión baj
 Aquí tiene un ejemplo de archivos nombrados con la especificación para DOCMA:
 
 01-00_Europa.md
+
 01-01_España.md
+
 01-02_Italia.md
+
 01-03_Francia.md
+
 01-04_Alemania.md
+
 02-00_Africa.md
+
 02-01_Nigeria.md
+
 02-02_Camerún.md
+
 02-03_Marruecos.md
+
 03_00_Asia.md
+
 03_01_China.md
+
 03_02_India.md
 
 Estos archivos definen tres temas principales: Europa, África y Asia, y dentro de cada estos temas hay distintos apartados correspondientes a varios países de
