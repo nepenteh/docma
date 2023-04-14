@@ -65,9 +65,9 @@ Sin embargo, es posible añadir otro archivo CSS en la carpeta que defina estilo
 
 La carpeta del proyecto DOCMA contiene un archivo **config.php**. En este archivo podrá configurar tres variables:
 
-* El título del documento. Este título aparecerá en la parte superior de la documentación.
-* El nombre de la carpeta de contenidos. Indique aquí el nombre que tiene la carpeta que contiene los archivos markdown de la documentación.
-* Archivo CSS específico. Indique aquí el nombre del CSS específico para la visualización personalizada de la documentación.
+* **El título del documento.** Este título aparecerá en la parte superior de la documentación.
+* **El nombre de la carpeta de contenidos.** Indique aquí el nombre que tiene la carpeta que contiene los archivos markdown de la documentación.
+* **Archivo CSS específico.** Indique aquí el nombre del CSS específico para la visualización personalizada de la documentación.
 
 ### Librería PHP-Markdown (Michelf) - Conversión de MarkDown en HTML
 
