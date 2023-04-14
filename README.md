@@ -33,29 +33,19 @@ A continuación indique un nombre para el archivo separándolo con un guión baj
 
 Aquí tiene un ejemplo de archivos nombrados con la especificación para DOCMA:
 
-01-00_Europa.md
+* 01-00_Europa.md
+* 01-01_España.md
+* 01-02_Italia.md
+* 01-03_Francia.md
+* 01-04_Alemania.md
+* 02-00_Africa.md
+* 02-01_Nigeria.md
+* 02-02_Camerún.md
+* 02-03_Marruecos.md
+* 03_00_Asia.md
+* 03_01_China.md
+* 03_02_India.md
 
-01-01_España.md
-
-01-02_Italia.md
-
-01-03_Francia.md
-
-01-04_Alemania.md
-
-02-00_Africa.md
-
-02-01_Nigeria.md
-
-02-02_Camerún.md
-
-02-03_Marruecos.md
-
-03_00_Asia.md
-
-03_01_China.md
-
-03_02_India.md
 
 Estos archivos definen tres temas principales: Europa, África y Asia, y dentro de cada estos temas hay distintos apartados correspondientes a varios países de
 cada continente. Si los nombres están creados de forma correcta, el visor DOCMA será capaz de crear automáticamente un índice en la parte izquierda de la pantalla 
@@ -84,11 +74,12 @@ La carpeta del proyecto DOCMA contiene un archivo **config.php**. En este archiv
 Este proyecto usa la librería PHP Michelf para la conversión de archivos markdown en HTML, que permite la visualización de dichos archivos en el navegador.
 Puede encontrar más información sobre esta librería en:
 
-[PHP Markdown](https://github.com/michelf/php-markdown)
+[PHP Markdown - https://github.com/michelf/php-markdown](https://github.com/michelf/php-markdown)
 
 ### Licencia
 
 Este proyecto es de libre uso.
+
 Se agradece mención al autor y enlace al repositorio.
 
 [José Manuel Rosado Hurtado - ejerciciosmesa.com](https://ejerciciosmesa.com)
