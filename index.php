@@ -1,8 +1,10 @@
 <?php
-require_once("autoload.php");
+
+include __DIR__ . '/vendor/autoload.php';
+
 require_once("config.php");
 
-use Docum\Tema;
+use Nepenteh\Docma\Tema;
 
 $tema = new Tema($carpetaContenidos);
 

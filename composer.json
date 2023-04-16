@@ -1,0 +1,21 @@
+{
+    "name": "nepenteh/docma",
+    "description": "Visor de Documentación Markdown",
+    "type": "project",
+    "require": {
+        "michelf/php-markdown": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nepenteh\\Docma\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jose Manuel Rosado",
+            "email": "nepenteh@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha"
+}

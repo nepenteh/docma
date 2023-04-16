@@ -20,9 +20,10 @@
 
 
 
-namespace Docum;
+namespace Nepenteh\Docma;
 
 use Michelf\MarkdownExtra;
+
 
 class Tema implements TemaInterface {
 
