@@ -76,13 +76,7 @@ Puede encontrar más información sobre esta librería en:
 
 [PHP Markdown - https://github.com/michelf/php-markdown](https://github.com/michelf/php-markdown)
 
-### Licencia
 
-Este proyecto es de libre uso.
-
-Se agradece mención al autor y enlace al repositorio.
-
-[José Manuel Rosado Hurtado - ejerciciosmesa.com](https://ejerciciosmesa.com)
 
 
 
