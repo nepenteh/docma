@@ -16,10 +16,6 @@
  * 
  */
 
-
-
-
-
 namespace Nepenteh\Docma;
 
 use Michelf\MarkdownExtra;

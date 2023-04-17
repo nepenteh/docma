@@ -2,11 +2,12 @@
 
 include __DIR__ . '/vendor/autoload.php';
 
-require_once("config.php");
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->safeLoad();
 
 use Nepenteh\Docma\Tema;
 
-$tema = new Tema($carpetaContenidos);
+$tema = new Tema($_ENV['CARPETA_CONTENIDOS']."/");
 
 $cnt = '01-00';
 if (isset($_GET['cnt'])) $cnt = $_GET['cnt'];
@@ -25,13 +26,13 @@ $titulo = $tema->tituloTema($tema->nombreFicheroTema($cnt));
     <title><?php echo $titulo; ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="css/visordoc.css" rel="stylesheet">
-    <link href="css/<?php echo $cssEspecifico; ?>" rel="stylesheet">
+    <link href="css/<?php echo $_ENV['CSS_PROPIO']; ?>" rel="stylesheet">
 </head>
 
 <body>
     <div class="fluid-container bd-layout">
         <div class="row bg-dark text-light pt-1 pb-1 ps-3 shadow">
-            <h4><?php echo $tituloDocum; ?></h4>
+            <h4><?php echo $_ENV['TITULO']; ?></h4>
         </div>
         <div class="row">
             <aside class="lateral bd-sidebar col-md-3 col-12 shadow ">
