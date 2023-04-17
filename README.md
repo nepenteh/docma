@@ -69,12 +69,7 @@ La carpeta del proyecto DOCMA contiene un archivo **config.php**. En este archiv
 * **El nombre de la carpeta de contenidos.** Indique aquí el nombre que tiene la carpeta que contiene los archivos markdown de la documentación.
 * **Archivo CSS específico.** Indique aquí el nombre del CSS específico para la visualización personalizada de la documentación.
 
-### Librería PHP-Markdown (Michelf) - Conversión de MarkDown en HTML
 
-Este proyecto usa la librería PHP Michelf para la conversión de archivos markdown en HTML, que permite la visualización de dichos archivos en el navegador.
-Puede encontrar más información sobre esta librería en:
-
-[PHP Markdown - https://github.com/michelf/php-markdown](https://github.com/michelf/php-markdown)
 
 
 
