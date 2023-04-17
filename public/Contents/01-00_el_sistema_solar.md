@@ -3,7 +3,7 @@
 El sistema solar1​ es el sistema planetario que liga gravitacionalmente a un conjunto de objetos astronómicos que giran directa o indirectamente en una órbita alrededor de una única estrella conocida con el nombre de Sol.
 
 <figure class="figure">
-  <img src="./Contents/imagenes/sistema_solar.png" class="figure-img img-fluid rounded shadow" alt="...">
+  <img src="Contents/imagenes/sistema_solar.png" class="figure-img img-fluid rounded shadow" alt="...">
   <figcaption class="figure-caption text-center">Sistema Solar.</figcaption>
 </figure>
 
