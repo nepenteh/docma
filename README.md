@@ -69,8 +69,9 @@ La carpeta *Contents* puede además contener una subcarpeta *imagenes* donde se 
 
 El acceso a un tema concreto se hace usando el index.php con el parámetro de URL *cnt* asignado a la numeración del tema. Así por ejemplo, si quiere crear un enlace en un archivo markdown de su documentación que apunte al tema "Alemania" cuya numeración es 01_04, debe indicar lo siguiente:
 
+```bash
 [Alemania](index.php?cnt=01_04)
-
+```
 
 ### Estilos CSS
 
