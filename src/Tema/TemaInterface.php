@@ -1,6 +1,6 @@
 <?php
 
-namespace Nepenteh\Docma;
+namespace Docma\Tema;
 
 interface TemaInterface {
 

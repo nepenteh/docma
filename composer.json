@@ -8,8 +8,11 @@
     },
     "license": "MIT",
     "autoload": {
+        "files": [
+            "src/config/config.php"
+        ],
         "psr-4": {
-            "Nepenteh\\Docma\\": "src/"
+            "Docma\\": "src/"
         }
     },
     "authors": [

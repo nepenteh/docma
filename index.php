@@ -2,12 +2,9 @@
 
 include __DIR__ . '/vendor/autoload.php';
 
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->safeLoad();
+use Docma\Tema\Tema;
 
-use Nepenteh\Docma\Tema;
-
-$tema = new Tema($_ENV['CARPETA_CONTENIDOS']."/");
+$tema = new Tema(CARPETA_CONTENIDOS);
 
 $cnt = '01-00';
 if (isset($_GET['cnt'])) $cnt = $_GET['cnt'];
@@ -26,13 +23,13 @@ $titulo = $tema->tituloTema($tema->nombreFicheroTema($cnt));
     <title><?php echo $titulo; ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="css/visordoc.css" rel="stylesheet">
-    <link href="css/<?php echo $_ENV['CSS_PROPIO']; ?>" rel="stylesheet">
+    <link href="css/<?php CSS_PROPIO; ?>" rel="stylesheet">
 </head>
 
 <body>
     <div class="fluid-container bd-layout">
         <div class="row bg-dark text-light pt-1 pb-1 ps-3 shadow">
-            <h4><?php echo $_ENV['TITULO']; ?></h4>
+            <h4><?php echo TITULO; ?></h4>
         </div>
         <div class="row">
             <aside class="lateral bd-sidebar col-md-3 col-12 shadow ">
@@ -61,8 +58,8 @@ $titulo = $tema->tituloTema($tema->nombreFicheroTema($cnt));
     </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <script>
         (function() {
             hideShowEsquema();
             window.onresize = hideShowEsquema;
